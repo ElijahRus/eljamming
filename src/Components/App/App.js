@@ -30,8 +30,11 @@ class App extends Component {
       return;
     }else {
       let tracks = this.state.playlistTracks;
+      let newSearchResults = this.state.searchResults.filter(q => q !== track);
       tracks.push(track);
-      this.setState({playlistTracks: tracks});
+      this.setState({ playlistTracks: tracks });
+      this.setState({ searchResults: newSearchResults });
+      console.log('newSearchResults', newSearchResults);
     }
   }
 

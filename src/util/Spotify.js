@@ -1,4 +1,5 @@
 const clientID = '880f9caf22de4756a48d85ee5ba22500';
+//const redirectURI = 'http://localhost:3000/';
 const redirectURI = 'https://elijahrus.github.io/eljamming/';
 //const redirectURI = 'http://eljamming.surge.sh';
 
